@@ -20,4 +20,5 @@ void teste()
 	h = f;
 	assert(h == f);
 	cout << "Tests done ! ";
+	cout << endl;
 }

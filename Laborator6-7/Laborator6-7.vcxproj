@@ -149,11 +149,19 @@
   <ItemGroup>
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Laborator6-7.cpp" />
+    <ClCompile Include="RepoFile.cpp" />
+    <ClCompile Include="RepoTests.cpp" />
+    <ClCompile Include="Service.cpp" />
     <ClCompile Include="Tests.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="RepoF.h" />
+    <ClInclude Include="RepoTests.h" />
+    <ClInclude Include="Service.h" />
     <ClInclude Include="Tests.h" />
+    <ClInclude Include="User_Interface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
